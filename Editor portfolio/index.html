@@ -1,0 +1,156 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Krishnan | Editor Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #0f0f0f, #1a1a1a);
+      color: #fff;
+      overflow-x: hidden;
+    }
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: rgba(255, 255, 255, 0.02);
+      box-shadow: 0 4px 20px rgba(255, 215, 0, 0.15);
+      border-bottom: 1px solid #333;
+    }
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #FFD700;
+      box-shadow: 0 0 15px #FFD700;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #FFD700;
+    }
+    p {
+      color: #ccc;
+      font-size: 1.1rem;
+    }
+    .container {
+      padding: 2rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    .section {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid #444;
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.1);
+      transition: all 0.5s ease;
+      animation: fadeUp 1s ease;
+    }
+    @keyframes fadeUp {
+      from { transform: translateY(30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    .section h2 {
+      color: #FFD700;
+      margin-bottom: 1rem;
+    }
+    .skills span {
+      display: inline-block;
+      background: #FFD700;
+      color: #000;
+      padding: 0.5rem 1rem;
+      margin: 0.3rem;
+      border-radius: 999px;
+      font-weight: 500;
+      box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+    }
+    .reel-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem;
+    }
+    .reel {
+      background: #1f1f1f;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(255, 215, 0, 0.1);
+      padding: 1rem;
+      text-align: center;
+      transition: transform 0.4s;
+    }
+    .reel:hover {
+      transform: scale(1.05);
+    }
+    .reel a {
+      color: #FFD700;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 0.5rem;
+    }
+    .glass-button {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 215, 0, 0.4);
+      border-radius: 12px;
+      padding: 0.8rem 1.2rem;
+      color: #FFD700;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s;
+      backdrop-filter: blur(6px);
+    }
+    .glass-button:hover {
+      background: rgba(255, 215, 0, 0.1);
+      box-shadow: 0 0 12px rgba(255, 215, 0, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.postimg.cc/bJ2ZCGw4/IMG-20240914-170303.jpg" alt="Krishnan" class="profile-pic">
+    <h1>Krishnan</h1>
+    <p>Social Media Video Editor | Reels, Shorts, CapCut Expert</p>
+  </header>
+  <div class="container">
+    <div class="section">
+      <h2>About Me</h2>
+      <p>I’m a passionate video editor from Tamil Nadu. I specialize in editing Instagram Reels, YouTube Shorts, and social media videos using CapCut, VN, and mobile apps.</p>
+    </div>
+    <div class="section">
+      <h2>Skills</h2>
+      <div class="skills">
+        <span>CapCut</span>
+        <span>VN Editor</span>
+        <span>Instagram Reels</span>
+        <span>Canva</span>
+        <span>Thumbnail Design</span>
+        <span>Trendy Cuts</span>
+      </div>
+    </div>
+    <div class="section">
+      <h2>Projects (Reels)</h2>
+      <div class="reel-gallery">
+        <div class="reel"><a href="https://www.instagram.com/reel/DIZGWumTx8U/" target="_blank">Reel 1 🔗</a></div>
+        <div class="reel"><a href="https://www.instagram.com/reel/DIT7XBHzD47/" target="_blank">Reel 2 🔗</a></div>
+        <div class="reel"><a href="https://www.instagram.com/reel/DHyWsTIzPKT/" target="_blank">Reel 3 🔗</a></div>
+        <div class="reel"><a href="https://www.instagram.com/reel/DHPwJQVT8HC/" target="_blank">Reel 4 🔗</a></div>
+        <div class="reel"><a href="https://www.instagram.com/reel/DFpAGusSWbm/" target="_blank">Reel 5 🔗</a></div>
+      </div>
+    </div>
+    <div class="section">
+      <h2>Contact</h2>
+      <a href="https://wa.me/919786204074" class="glass-button">📲 WhatsApp Me</a>
+      <br><br>
+      <a href="https://instagram.com/unique_dude007" class="glass-button">📸 View Instagram</a>
+    </div>
+  </div>
+</body>
+</html>
